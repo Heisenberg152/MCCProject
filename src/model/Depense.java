@@ -6,6 +6,7 @@ import java.util.List;
 public class Depense {
 
 	private int idDepense;
+	private String libelleDepense;
 	private BigDecimal montant;
 	private Personne depenseur;
 	private List<Personne> creanciers;
